@@ -3,7 +3,7 @@
     "awsreactfullstack2368d7fd": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
-      "dependsOn": [],
+      "dependsOn": [ ],
       "customAuth": false,
       "frontendAuthConfig": {
         "loginMechanisms": [
@@ -14,7 +14,7 @@
         ],
         "passwordProtectionSettings": {
           "passwordPolicyMinLength": 8,
-          "passwordPolicyCharacters": []
+          "passwordPolicyCharacters": [ ]
         },
         "mfaConfiguration": "OFF",
         "mfaTypes": [
